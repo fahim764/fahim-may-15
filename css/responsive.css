@@ -1,0 +1,409 @@
+
+
+
+
+/* for lg devices */
+
+@media screen and (min-width:992px) and (max-width: 1199px) {
+
+
+          
+
+            }
+
+
+/* for ipad */
+
+@media screen and (min-width:768px) and (max-width: 991px) {
+
+   /* service area */
+
+   .service-area {
+    padding: 60px 0 30px 0;
+    }
+
+   .service-content p {
+    text-align: justify;
+    }
+
+    .service-content p br {
+        display: none;
+    }
+
+    /* savoir area */
+
+     /* savior area star */
+
+     .savoir-area {
+        padding: 30px 0 40px 0;
+    }
+
+    .savoir-img {
+        padding: 0;
+    }
+
+    .savoir-content {
+        padding: 35px 0 0 0;
+    }
+
+    .savoir-content h2 br {
+        display: none;
+    }
+
+    .savoir-content p {
+        text-align: justify;
+    }
+
+    .savoir-content p br {
+        display: none;
+    }
+
+    .savoir-content a {
+        padding: 12px 30px;
+    }
+
+    .savoir-img3 {
+        padding: 80px 0 0 0 ;
+    }
+
+    .savoir2 {
+        text-align: left;
+    }
+
+     /* vous area star */
+
+     .vous-area {
+        padding: 60px 0 50px 0;
+    }
+
+    .vous-content {
+        padding: 0;
+    }
+
+    .vous-content::before { 
+        display: none; 
+    }
+
+    .vous-content h2 {
+        font-size: 22px;
+    }
+
+    .vous-form {
+        padding: 0;
+    }
+
+    .form-content a {
+        font-size: 18px;
+        text-align: center;
+        padding: 15px 30px;
+       }
+
+       /* vedio area */
+
+       .text-content {
+           display: none;
+       }
+
+       .vedio-title {
+        padding: 30px 0 0 0;
+      }
+
+      /* newsletter */
+
+      .newsletter-area {
+        padding: 20px 0 0 0;
+    }
+
+    .input-group button {
+        padding: 14px 20px;
+    }
+
+    .footer-icon {
+        margin-top: 35px;
+        text-align: left;
+    }
+
+    .footer-logo-icon {
+        text-align: left;
+        margin-top: 35px;
+    }
+
+
+    
+
+
+
+  
+   
+
+}
+
+
+
+
+
+/* for mobile */
+
+@media screen and (max-width: 767px){
+
+    /* hero area star */
+
+    .navbar-brand img {
+        max-width: 180px;
+    }
+
+    .hero-content {
+        padding: 50px 0 60px 0;
+    }
+
+    .hero-content h2 {
+        font-size: 28px;
+    }
+
+    .hero-content h2 br {
+        display: none;
+    }
+
+    .hero-overlay {
+        background: linear-gradient(90deg, rgba(236,104,58,0.8) 100%, rgba(3,3,242,0) 0%); 
+     }
+
+     .hero-content a {
+        padding: 14px 25px;
+        font-size: 12px;
+    }
+
+    .hero-overlay::before {
+        display: none;
+    }
+
+    /* -- hero-bottom-area star--> */
+
+    .hero-bottom-content h2 {
+        font-size: 14px;   
+    }
+
+     /* service area star */
+
+     .service-area {
+        padding: 40px 0 30px 0;
+    }
+
+    .service-content p {
+        text-align: justify;
+    }
+
+    .service-content p br {
+        display: none;
+    }
+    
+     /* des-area star */
+
+     .des-title ol li {
+         font-size: 20px;
+     }
+
+     .des-title p {
+         font-size: 18px;
+     }
+
+     .des-item img {
+         width: 100%;
+     }
+
+     .des-title h2 {
+         font-size: 16px;
+         margin-top: 15px;
+     }
+
+     .uno-auto {
+        margin: 25px 0;
+    }
+
+    .coach-title {
+        margin: 20px 0 10px 0;
+    }
+
+    .votre-project {
+        margin-top: 20px;
+    }
+
+    .votre-project h2 {
+        font-size: 16px;
+    }
+
+    .votre-project p {
+        margin: 15px 0;
+      }
+
+      .des-bottom h2 {
+          font-size: 15px;
+      }
+
+      /* savior area star */
+
+      .savoir-area {
+        padding: 30px 0 40px 0;
+    }
+
+    .savoir-img {
+        padding: 0;
+    }
+
+    .savoir-content {
+        padding: 35px 0 0 0;
+    }
+
+    .savoir-content h2 br {
+        display: none;
+    }
+
+    .savoir-content p {
+        text-align: justify;
+    }
+
+    .savoir-content p br {
+        display: none;
+    }
+
+    .savoir-content a {
+        padding: 12px 30px;
+    }
+
+    .savoir-img3 {
+        padding: 80px 0 0 0 ;
+    }
+
+     /* vous area star */
+
+     .vous-area {
+        padding: 40px 0 50px 0;
+    }
+
+    .vous-content {
+        padding: 0;
+    }
+
+    .vous-content::before { 
+        display: none; 
+    }
+
+    .vous-content h2 {
+        font-size: 22px;
+    }
+
+    .vous-form {
+        padding: 0;
+    }
+
+    .form-content a {
+        font-size: 18px;
+        text-align: center;
+        padding: 15px 30px;
+       }
+
+        /* testimonial area star */
+
+        .testimonial-area {
+            padding: 35px 0 35px 0;
+         }
+
+         .test-title h2 {
+             font-size: 20px;
+         }
+
+        .testimonial-content {
+             margin-top: 20px;
+        }
+
+        /* vedio area */
+
+        .vedio-content img {
+            width: 100%;
+        }
+
+        .vedio-content {
+            margin-bottom: 20px;
+        }
+
+        .vedio-area {
+            overflow: hidden;
+        }
+
+        /* logo-icon area */
+
+        .logo-icon {
+            padding: 45px 0;
+        }
+
+        .icon-img {
+            text-align: center;
+        }
+
+        .icon-img2 {
+            display: none;
+        }
+
+        /* newsletter area */
+
+        .newsletter-area {
+            padding: 20px 0 40px 0;
+        }
+
+        .newsletter-content {
+            padding: 20px 0;
+        }
+
+        .newsletter-content h2 {
+            margin-bottom: 20px;
+        }
+        
+        .newsletter-form {
+            padding: 10px 0;
+        }
+
+        .input-group button {
+            padding: 14px 30px;
+        }
+
+        /* footer */
+
+        footer {
+            padding: 30px 0;
+        }
+
+        .contact-content {
+            margin: 25px 0;
+        }
+
+        .footer-icon {
+            text-align: left;
+        }
+
+        .footer-logo-icon {
+            text-align: left;
+        }
+
+        .company-logo {
+            display: inline-block;
+            margin-left: 80px;
+        }
+
+        
+       
+
+
+
+
+        
+
+
+        
+
+  
+  
+}
+
+
+
+
